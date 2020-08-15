@@ -1,0 +1,31 @@
+<a href="http://www.duyiedu.com" title="黑龙江度一教育有限公司>渡一教育</a>
+
+<!DOCTYPE html>  文档声明
+
+cmn-hans   中文
+
+属性=属性名+属性值
+head 文档头，不显示出来
+
+32 空格
+65 A
+97 a
+
+UTF-8编码表
+
+
+<!DOCTYPE html> /文档声明，不写浏览器进入渲染怪异模式
+<html lang="en"> /根元素
+<head>/文档头，不会显示在页面上
+    <meta charset="UTF-8">/meta元数据，附加信息，网页的字符编码集utf-8
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+             /适配手机端，移动端适配
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+             /告诉IE浏览器使用的内核是edge
+    <title>Document</title>/网页标题
+</head>
+<body>
+    <!--注释内容-->
+    <a href="">度一教育</a>
+</body>
+</html>
